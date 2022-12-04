@@ -1,0 +1,41 @@
+apiVersion: v1
+entries:
+  external-secrets:
+  - annotations:
+      weave.works/category: Secrets Management
+      weave.works/layer: layer-0
+      weave.works/links: |
+        - name: Chart Sources
+          url: https://charts.external-secrets.io
+        - name: Upstream Project
+          url: https://github.com/external-secrets/external-secrets
+      weave.works/operator: "true"
+      weave.works/profile: external-secrets
+      weave.works/profile-ci: |
+        - "gke"
+        - "kind"
+    apiVersion: v2
+    created: "2022-12-04T22:37:27.804792894+02:00"
+    dependencies:
+    - name: external-secrets
+      repository: https://charts.external-secrets.io
+      version: 0.6.1
+    description: A Weaveworks Helm chart for the External Secrets Operator
+    digest: 386916fd90f04754f696ca0cd109f9b6816a3a2b0f73ea0307a9a002fb80a57a
+    home: https://github.com/weaveworks/profiles-catalog
+    icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-round-logo.svg
+    keywords:
+    - external-secrets
+    - secrets-manager
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@weave.works
+      name: Weaveworks
+    name: external-secrets
+    sources:
+    - https://charts.external-secrets.io
+    type: application
+    urls:
+    - https://github.com/waleedhammam/external-secrets-helm/external-secrets-0.0.7.tgz
+    version: 0.0.7
+generated: "2022-12-04T22:37:27.799291334+02:00"
