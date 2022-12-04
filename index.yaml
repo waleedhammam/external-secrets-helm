@@ -15,7 +15,7 @@ entries:
         - "gke"
         - "kind"
     apiVersion: v2
-    created: "2022-12-04T23:18:15.06971767+02:00"
+    created: "2022-12-04T23:21:54.334948485+02:00"
     dependencies:
     - name: external-secrets
       repository: https://charts.external-secrets.io
@@ -36,6 +36,6 @@ entries:
     - https://charts.external-secrets.io
     type: application
     urls:
-    - https://github.com/waleedhammam/external-secrets-helm/external-secrets-0.6.1.tgz
+    - https://waleedhammam.github.io/external-secrets-helm/external-secrets-0.6.1.tgz
     version: 0.6.1
-generated: "2022-12-04T23:18:15.065412184+02:00"
+generated: "2022-12-04T23:21:54.327925804+02:00"
