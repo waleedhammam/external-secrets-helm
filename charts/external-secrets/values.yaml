@@ -3,7 +3,7 @@ external-secrets:
 
 secretsSource:
   enabled: true
-  url: ssh://git@github.com:waleedhammam/wge-dev.git
+  url: ssh://git@github.com/waleedhammam/wge-dev
   # tag: v1.0.0
   branch: main
   path: ./clusters/secrets/management/  # Could be a path to the secrets dir or a kustomization.yaml file
