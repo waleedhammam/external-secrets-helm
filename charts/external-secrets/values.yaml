@@ -8,7 +8,7 @@ secretsSource:
   branch: main
   path: ./clusters/secrets/management/  # Could be a path to the secrets dir or a kustomization.yaml file
   secretRef: my-pat  # (Optional): Name of the K8s secret with private repo auth credentials
-  sourceRef: # Could specify a name for an existing GitSource reference instead of creating a new one
-    kind: GitRepository
-    name: external-secrets
-    namespace: external-secrets
+  # sourceRef: # Could specify a name for an existing GitSource reference instead of creating a new one
+  #   kind: GitRepository
+  #   name: external-secrets
+  #   namespace: external-secrets
