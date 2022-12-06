@@ -15,13 +15,13 @@ entries:
         - "gke"
         - "kind"
     apiVersion: v2
-    created: "2022-12-06T13:40:00.616109188+02:00"
+    created: "2022-12-06T14:54:55.347124852+02:00"
     dependencies:
     - name: external-secrets
       repository: https://charts.external-secrets.io
       version: 0.6.1
     description: A Weaveworks Helm chart for the External Secrets Operator
-    digest: bc7d84dc93204f8100f0873aa20a2b73c99abb2ac2ef2741daf7147e434a3d62
+    digest: 50185cf6bd902095cf06da688255210e2961741b37d39bd50d2222e0fc8976c2
     home: https://github.com/weaveworks/profiles-catalog
     icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-round-logo.svg
     keywords:
@@ -38,4 +38,4 @@ entries:
     urls:
     - https://waleedhammam.github.io/external-secrets-helm/external-secrets-0.6.1.tgz
     version: 0.6.1
-generated: "2022-12-06T13:40:00.609144699+02:00"
+generated: "2022-12-06T14:54:55.33955972+02:00"
